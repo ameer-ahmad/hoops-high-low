@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Hoops High-Low
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Hoops High-Low, A classic game of higher or lower but with NBA Statistics. All stats are from the 2023-24 season and are updated daily.
 
-## Available Scripts
+View the deployed app here: [Hoops High-Low](https://ameer-ahmad.github.io/hoops-high-low/)
 
-In the project directory, you can run:
+## Project Description: 
+Hoops High-Low is a game of higher or lower which is built in React. Once you start the game the user will be presented with two NBA players. The first NBA player will have a stat of his displayed, either mpg, ppg, rpg, apg, spg, bpg, or tpg. The stat is his average for the 2023-24 season. The second player will not have their stat displayed. The user will have to guess whether player 2's stat average is higher or lower than player 1's. If the user guesses correctly, they gain a point. At this point, player 2 now becomes player 1 and has one of their stats is randomly displayed. A random player is selected for player 2, and the game continues until the user guesses incorrectly. Once the game is over, the final score is displayed, and the user has the option to play again.
 
-### `npm start`
+## Web Scraping:
+All the NBA statistics were scraped by me from NBA.com using Selenium and a Python script written by me. You can view the code for the python script [here](https://github.com/ameer-ahmad/scrape-nba-stats). The Python script is automated and runs every morning at 7 am to get the latest statistics, convert them to JSON, and upload them to GitHub where it is hosted and available for the React app to use.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Inspiration:
+Hoops High-Low is inspired by other daily NBA games such as [Hoop Grids](https://www.hoopgrids.com/), [Poeltl](https://poeltl.dunk.town/), and [Dribble](https://dribblegame.com/). I enjoy playing these games, as well as [the Higher Lower game](https://www.higherlowergame.com/). This led me to make an NBA version of the Higher Lower game. If you enjoy playing my game let me know! :)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Quickstart:
+You can view and play the game here: [Hoops High-Low](https://ameer-ahmad.github.io/hoops-high-low/)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you'd like to run the project on your machine locally, follow these steps:
+1. Open your terminal.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Clone the repository
+```
+git clone https://github.com/ameer-ahmad/hoops-high-low.git
+```
+4. Navigate to the project directory:
+```
+cd your-project-name
+```
+5. Install the project dependencies:
+```
+npm install
+```
+6. Run the project
+```
+npm install
+```
+7. Open http://localhost:3000 to view it in your browser.
