@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/bgImage.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center -50px;
+  color: white;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba( black, 0.7);
+    z-index: 1;
+  }
+
+  .info {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s ease-in-out;
+    width: 90%;
+    left: 5%;
+
+    &.hide {
+      top: -100%;
+    }
+
+    h2 {
+      font-size: 60px;
+      text-transform: uppercase;
+      line-height: 60px;
+      font-family: "Russo One", sans-serif;
+      margin-bottom: 10px;
+
+      @media screen and (max-width: 750px) {
+        font-size: 48px;
+      }
+    }
+
+    h1 {
+      font-size: 72px;
+      text-transform: uppercase;
+      line-height: 72px;
+      font-family: "Russo One", sans-serif;
+
+      @media screen and (max-width: 750px) {
+        font-size: 60px;
+      }
+    }
+
+    h3 {
+      font-size: 24px;
+      font-family: "Russo One", sans-serif;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    p {
+      font-size: 18px;
+      width: 100%;
+      max-width: 480px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .start-game-btn {
+      margin-top: 50px;
+      font-size: 32px;
+      text-transform: uppercase;
+      font-family: "Russo One", sans-serif;
+      padding: 10px 25px;
+      background-color: #ee6730;
+      border: 2px solid black;
+      border-radius: 500px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #99411f;
+      }
+    }
+  }
+
+  .game {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    transition: all 0.75s ease-in-out;
+    width: 90%;
+    left: 5%;
+
+    @media screen and (max-width: 625px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-top: 50px;
+    }
+
+    &.hide {
+      top: -100%;
+    }
+
+    .card {
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 25px;
+      border: 2px solid black;
+      background-color: rgba(#36454f, 0.75);
+      border-radius:25px;
+      gap: 15px;
+      height: 425px;
+      text-align: center;
+
+      img {
+        width: 100%;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 42px;
+        font-family: "Russo One", sans-serif;
+      }
+
+      .btn-container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        span {
+          border: 1px solid white;
+          padding: 5px 10px;
+          border-radius: 50px;
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+
+          &:hover {
+            border-color: black;
+            color: black;
+          }
+        }
+      }
+    }
+
+    .score {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+    }
+  }
+
+  .game-over {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    transition: all 0.75s ease-in-out;
+
+    &.hide {
+      top: -100%;
+    }
+
+    .play-again-btn {
+      margin-top: 50px;
+      font-size: 32px;
+      text-transform: uppercase;
+      font-family: "Russo One", sans-serif;
+      padding: 10px 25px;
+      background-color: #ee6730;
+      border: 2px solid black;
+      border-radius: 500px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #99411f;
+      }
+    }
+  }
+}
