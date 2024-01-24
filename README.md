@@ -9,3 +9,6 @@ Hoops High-Low is a game of higher or lower which is built in React. Once you st
 
 ## Web Scraping:
 All the NBA statistics were scraped by me from NBA.com using Selenium and a Python script written by me. You can view the code for the python script [here](https://github.com/ameer-ahmad/scrape-nba-stats). The Python script is automated and runs every morning at 7 am to get the latest statistics, convert them to JSON, and upload them to GitHub where it is hosted and available for the React app to use.
+
+## Inspiration:
+Hoops High-Low is inspired by other daily NBA games such as [Hoop Grids](https://www.hoopgrids.com/), [Poeltl](https://poeltl.dunk.town/), and [Dribble[(https://dribblegame.com/). I enjoy playing these games, as well as [the Higher Lower game](https://www.higherlowergame.com/). This led me to make an NBA version of the Higher Lower game. If you enjoy playing my game let me know! :)
