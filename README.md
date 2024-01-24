@@ -20,19 +20,19 @@ If you'd like to run the project on your machine locally, follow these steps:
 1. Open your terminal.
 2. Change the current working directory to the location where you want the cloned directory.
 3. Clone the repository
-"""
+```
 git clone https://github.com/ameer-ahmad/hoops-high-low.git
-"""
+```
 4. Navigate to the project directory:
-"""
+```
 cd your-project-name
-"""
+```
 5. Install the project dependencies:
-"""
+```
 npm install
-"""
+```
 6. Run the project
-"""
+```
 npm install
-"""
+```
 7. Open http://localhost:3000 to view it in your browser.
