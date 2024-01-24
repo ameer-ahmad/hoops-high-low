@@ -36,3 +36,29 @@ npm install
 npm install
 ```
 7. Open http://localhost:3000 to view it in your browser.
+
+## Screenshots
+
+The game's main screen
+
+![1](public/screenshot1.png)
+
+The game's screen during gameplay
+
+![2](public/screenshot2.png)
+
+The game's game over screen
+
+![3](public/screenshot3.png)
+
+The game's main screen on mobile
+
+![4](public/screenshot4.png)
+
+The game's screen during gameplay on mobile
+
+![5](public/screenshot5.png)
+
+The The game's game over screen on mobile
+
+![6](public/screenshot6.png)
