@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hoops-high-low/static/css/main.6e8b9a91.css",
+    "main.js": "/hoops-high-low/static/js/main.93554368.js",
+    "static/js/787.c62c6a52.chunk.js": "/hoops-high-low/static/js/787.c62c6a52.chunk.js",
+    "static/media/bgImage.png": "/hoops-high-low/static/media/bgImage.3a8103d6a083a27ad0da.png",
+    "index.html": "/hoops-high-low/index.html",
+    "main.6e8b9a91.css.map": "/hoops-high-low/static/css/main.6e8b9a91.css.map",
+    "main.93554368.js.map": "/hoops-high-low/static/js/main.93554368.js.map",
+    "787.c62c6a52.chunk.js.map": "/hoops-high-low/static/js/787.c62c6a52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e8b9a91.css",
+    "static/js/main.93554368.js"
+  ]
+}
