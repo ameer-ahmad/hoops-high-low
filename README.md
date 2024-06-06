@@ -33,7 +33,7 @@ npm install
 ```
 6. Run the project
 ```
-npm install
+npm start
 ```
 7. Open http://localhost:3000 to view it in your browser.
 
